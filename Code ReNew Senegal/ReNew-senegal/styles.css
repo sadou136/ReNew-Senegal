@@ -1,0 +1,253 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Conteneur principal */
+.wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Titres */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Formulaire de connexion */
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"], button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #45a049;
+}
+
+/* Liens */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Messages d'erreur */
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f44336;
+    border-radius: 4px;
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Message de succès */
+.success {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #28a745;
+    border-radius: 4px;
+    background-color: #d4edda;
+    color: #155724;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 50px; /* Ajustez la taille du logo selon vos besoins */
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.header .logo h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #ccc;
+}
+
+.header .navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header .navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.header .navigation a:hover {
+    color: #f2f2f2;
+}
+
+.header .search-bar {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.header .search-bar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #555;
+    color: #fff;
+}
+
+.header .icons {
+    display: flex;
+    align-items: center;
+}
+
+.header .icons a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.header .icons a:hover {
+    color: #f2f2f2;
+}
+
+/* Effets de survol */
+.wrapper:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+}
+
+.wrapper h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.wrapper p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.welcome-message {
+    /* background-color: #4CAF50;  */
+    color: rgb(40, 213, 21);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: none; 
+    font-size: 24px; 
+}
+
+.presentation {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.presentation h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.presentation p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.presentation .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.presentation .btn:hover {
+    background-color: #45a049;
+}
+
+
